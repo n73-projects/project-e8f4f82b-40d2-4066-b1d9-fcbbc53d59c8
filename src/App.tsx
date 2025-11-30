@@ -29,26 +29,26 @@ function App() {
         return (
           <div className="space-y-8">
             {/* Hero Section */}
-            <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-8 rounded-lg">
-              <h1 className="text-4xl font-bold mb-4">Solna Family Dental</h1>
-              <p className="text-xl mb-6">Akut tandvård Stockholm - Snabb Akuttid i Alla Dagar</p>
+            <div className="bg-gradient-to-r from-blue-600 to-blue-800 p-8 rounded-lg">
+              <h1 className="text-4xl font-bold mb-4 text-white">Solna Family Dental</h1>
+              <p className="text-xl mb-6 text-blue-50">Akut tandvård Stockholm - Snabb Akuttid i Alla Dagar</p>
               <div className="grid md:grid-cols-2 gap-4 mb-6">
-                <div className="flex items-center gap-2">
-                  <Phone className="w-5 h-5" />
-                  <span>Akuttandvård: 070 6- 47 95 00</span>
+                <div className="flex items-center gap-2 text-white">
+                  <Phone className="w-5 h-5 text-blue-100" />
+                  <span className="font-medium">Akuttandvård: 070 6- 47 95 00</span>
                 </div>
-                <div className="flex items-center gap-2">
-                  <Phone className="w-5 h-5" />
-                  <span>Tidbokning: 08 - 68 43 91 00</span>
+                <div className="flex items-center gap-2 text-white">
+                  <Phone className="w-5 h-5 text-blue-100" />
+                  <span className="font-medium">Tidbokning: 08 - 68 43 91 00</span>
                 </div>
               </div>
-              <div className="flex items-center gap-2 mb-4">
-                <MapPin className="w-5 h-5" />
-                <span>Växlarevägen 45, Solna</span>
+              <div className="flex items-center gap-2 mb-4 text-white">
+                <MapPin className="w-5 h-5 text-blue-100" />
+                <span className="font-medium">Växlarevägen 45, Solna</span>
               </div>
-              <div className="flex items-center gap-2">
-                <Car className="w-5 h-5" />
-                <span>Fri parkering</span>
+              <div className="flex items-center gap-2 text-white">
+                <Car className="w-5 h-5 text-blue-100" />
+                <span className="font-medium">Fri parkering</span>
               </div>
             </div>
 
