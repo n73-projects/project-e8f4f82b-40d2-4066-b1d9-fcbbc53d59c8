@@ -353,11 +353,11 @@ function App() {
             <div className="hidden md:flex items-center space-x-6 text-sm">
               <div className="flex items-center gap-1">
                 <Phone className="w-4 h-4 text-blue-600" />
-                <span>070 6- 47 95 00</span>
+                <span className="text-gray-700">070 6- 47 95 00</span>
               </div>
               <div className="flex items-center gap-1">
                 <MapPin className="w-4 h-4 text-blue-600" />
-                <span>Växlarevägen 45, Solna</span>
+                <span className="text-gray-700">Växlarevägen 45, Solna</span>
               </div>
             </div>
           </div>
